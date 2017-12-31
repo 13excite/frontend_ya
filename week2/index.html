@@ -33,7 +33,7 @@
         <figcaption>Этапы первой загрузки:</figcaption>
         <ul id="first_dowload_list">
             <li>подготовка;</li>
-            <li>загрузка статики (HTTP-запрос и парсинг);</li>
+            <li>загрузка статики (<abbr title="HyperText Transfer Protocol">HTTP</abbr>-запрос и парсинг);</li>
             <li>исполнение модулей;</li>
             <li>инициализация базовых объектов;</li>
             <li>отрисовка.</li>
@@ -46,7 +46,7 @@
             <li>Подготовка к запросу на сервер;</li>
             <li>запрос данных с сервера;</li>
             <li>шаблонизация;</li>
-            <li>обновление <i>DOM</i>.</li>
+            <li>обновление <abbr title="Document Object Model">DOM</abbr>.</li>
         </ul>
     </figure>
 
@@ -68,7 +68,7 @@
     </p>
 
     <p>
-        <em>APDEX</em> – метрика, которая сразу говорит: хорошо или плохо. Метрика
+        <abbr title="Application Performance Index">APDEX</abbr> – метрика, которая сразу говорит: хорошо или плохо. Метрика
         работает очень просто. Мы выбираем временной интервал <i>[0; t]</i>, такой, что если
         время показа страницы попало в него, то пользователь счастлив. Берем еще один
         интервал, <i>(t; 4t]</i> (в четыре раза больше первого), и считаем, что если страница
@@ -122,8 +122,8 @@
     <ul>
         <li>включаем <i>gzip</i>;</li>
         <li>выставляем заголовки кэширования;</li>
-        <li>фризим <i>CSS</i>, <i>JS</i>, шаблоны и картинки;</li>
-        <li>используем <i>CDN</i>;</li>
+        <li>фризим <abbr title="Cascading Style Sheets">CSS</abbr>, <abbr title="JavaScript">JS</abbr>, шаблоны и картинки;</li>
+        <li>используем <abbr title="Content Delivery Network">CDN</abbr>;</li>
     </ul>
 
     <p>
@@ -133,13 +133,13 @@
     </p>
 
     <p>
-        На самое деле эта идея не нова. Уже существуют стандарты для <i>HTTP</i> — например,
-        <i>RFC 3229 <q>Delta encoding in HTTP</q></i> и <i><q>Google SDHC</q></i>, — но по разным причинам они
+        На самое деле эта идея не нова. Уже существуют стандарты для <abbr title="HyperText Transfer Protocol">HTTP</abbr> — например,
+        <i>RFC 3229 <q>Delta encoding in <abbr title="HyperText Transfer Protocol">HTTP</abbr></q></i> и <i><q>Google SDHC</q></i>, — но по разным причинам они
     не получили должного распространения в браузерах и на серверах.
     </p>
 
     <p>
-        Мы же решили сделать свой аналог на <i>JS</i>. Чтобы реализовать этот метод обновления,
+        Мы же решили сделать свой аналог на <abbr title="JavaScript">JS</abbr>. Чтобы реализовать этот метод обновления,
 начали искать реализации diff на JS. На популярных хостингах кода нашли
 библиотеки:
     </p>
@@ -211,7 +211,7 @@
         </pre>
 
     <p>
-        Алгоритм Бройдена — Флетчера — Гольдфарба — Шанно (BFGS)
+        Алгоритм Бройдена — Флетчера — Гольдфарба — Шанно (<abbr title="Алгоритм Бройдена — Флетчера — Гольдфарба — Шанно">BFGS</abbr>)
         — итерационный метод численной оптимизации, предназначенный для
         нахождения локального максимума/минимума нелинейного функционала
         без ограничений.
@@ -266,7 +266,7 @@
 
 <h3>Комментарии (3):</h3>
     <article>
-        <h5><em>Mogaika</em> (<a href="mogaika@yandex-team.ru">mogaika@yandex-team.ru</a>) <time datetime="2014-11-30T17:05"></time></h5>
+        <h5><em>Mogaika</em> (<a href="mogaika@yandex-team.ru">mogaika@yandex-team.ru</a>) <time datetime="2014-11-30T17:05">30 ноября 2014 в 17:05</time></h5>
 
         <p>А можете привести сравнение, на сколько быстрее грузится lite версия?</p>
     </article>
@@ -274,7 +274,7 @@
     <hr>
 
     <article>
-        <h5><em>JIguse</em> (<a href="mailto:mrawesome@yandex.ru">mrawesome@yandex.ru</a>) <time datetime="2014-11-29T21:30"></time></h5>
+        <h5><em>JIguse</em> (<a href="mailto:mrawesome@yandex.ru">mrawesome@yandex.ru</a>) <time datetime="2014-11-29T21:30">29 ноября 2014 в 21:30</time></h5>
 
         <p>Спасибо за статью, познавательно. Здорово, что Яндекс делится некоторыми
       подробностями о внутренней работе сервисов.
@@ -284,7 +284,7 @@
     <hr>
 
     <article>
-        <h5><em>Brister</em> (<a href="brist89@yandex-team.ru">brist89@yandex-team.ru</a>) <time datetime="2014-11-24T13:13"></time></h5>
+        <h5><em>Brister</em> (<a href="brist89@yandex-team.ru">brist89@yandex-team.ru</a>) <time datetime="2014-11-24T13:13">24 ноября 2014 в 13:13</time></h5>
         <p> \[ количество\ счастливых\ пользователей + количество\ удовлетворенных \div 2\ \over количество\ всех \]</p>
         <p>
             <q>Получается значение от нуля до единицы, которое, видимо, лучше всего показывает,
@@ -296,7 +296,7 @@
     <hr>
 
     <article>
-        <h5><em>alexeimois</em> (<a href="mailto:test@yandex.ru">test@yandex.ru</a>) <time datetime="2014-11-22T17:35"></time></h5>
+        <h5><em>alexeimois</em> (<a href="mailto:test@yandex.ru">test@yandex.ru</a>) <time datetime="2014-11-22T17:35">22 ноября 2014 в 17:35</time></h5>
         <p>
             Мы измеряем скорость загрузки с помощью <a href="help.yandex.ru/metrika/reports/monitoring_timing.xml">Яндекс.Метрики</a>
 
