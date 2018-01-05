@@ -12,13 +12,11 @@
 
         <main class="global-results">
             <style>
-                /* li:nth-last-child(n+6),
-            li:nth-last-child(n+6) ~ li */
-                .red-gt2 > div:nth-child(n+2) + div {
+                /* грязный хак*/
+                div:nth-child(n+2) + div.red-gt2 div  {
                     background-color: red;
                 }
             </style>
-
             <section class="global-result">
                 <article class="global-scope">
                     <div class="red-gt2">
