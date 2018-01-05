@@ -12,22 +12,28 @@
 
         <main class="global-results">
             <style>
-                /* ваш код здесь... */
+                div:nth-child(odd):not(:nth-child(5)){
+                    background-color: orange;
+                }
+                /* done, but it is fucking solution */
+                div:nth-child(n+2):nth-child(-n+8):not(:nth-child(3)):not(:nth-last-child(3)) {
+                    background-color: yellow;
+                }
             </style>
 
             <section class="global-result">
                 <article class="global-scope">
                     <div>
                     </div>
-                    <div></div>
+                    <div>dd</div>
                     <div>
                     </div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
+                    <div>ddd</div>
+                    <div>dd</div>
+                    <div>dd</div>
                     <div>
                     </div>
-                    <div></div>
+                    <div>dd</div>
                     <div>
                     </div>
                 </article>
