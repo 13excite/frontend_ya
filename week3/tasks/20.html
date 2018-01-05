@@ -12,7 +12,11 @@
 
         <main class="global-results">
             <style>
-                /* ваш код здесь... */
+                /* li:nth-last-child(n+6),
+            li:nth-last-child(n+6) ~ li */
+                .red-gt2 > div:nth-child(n+2) + div {
+                    background-color: red;
+                }
             </style>
 
             <section class="global-result">
