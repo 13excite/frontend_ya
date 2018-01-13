@@ -1,0 +1,34 @@
+@font-face {
+    font-family: OldLondon;
+    src:
+        url('fonts/OldLondon.woff') format('woff'),
+        url('fonts/OldLondon.ttf') format('truetype'),
+        url('fonts/OldLondon.svg#font') format('svg');
+}
+@font-face {
+    font-family: Droid;
+    src:
+        url('fonts/Droid.ttf') format('truetype');
+}
+@font-face {
+    font-family: SpecifyPersonal;
+    src:
+        url('fonts/SpecifyPERSONAL-ConMedium.woff') format('woff'),
+        url('fonts/SpecifyPERSONAL-ConMedium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: SpecifyPersonal;
+    src:
+        url('fonts/SpecifyPERSONAL-ConBold.woff') format('woff'),
+        url('fonts/SpecifyPERSONAL-ConBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: BlackLarch;
+    src:
+        url('fonts/BlackLarch.woff') format('woff'),
+        url('fonts/BlackLarch.ttf') format('truetype');
+}
