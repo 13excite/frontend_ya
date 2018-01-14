@@ -1,34 +1,85 @@
+/* custom fonts */
 @font-face {
     font-family: OldLondon;
     src:
-        url('fonts/OldLondon.woff') format('woff'),
-        url('fonts/OldLondon.ttf') format('truetype'),
-        url('fonts/OldLondon.svg#font') format('svg');
+        url('../fonts/OldLondon.woff') format('woff'),
+        url('../fonts/OldLondon.ttf') format('truetype'),
+        url('../fonts/OldLondon.svg#font') format('svg');
 }
 @font-face {
     font-family: Droid;
     src:
-        url('fonts/Droid.ttf') format('truetype');
+        url('../fonts/Droid.ttf') format('truetype');
 }
 @font-face {
     font-family: SpecifyPersonal;
     src:
-        url('fonts/SpecifyPERSONAL-ConMedium.woff') format('woff'),
-        url('fonts/SpecifyPERSONAL-ConMedium.ttf') format('truetype');
+        url('../fonts/SpecifyPERSONAL-ConMedium.woff') format('woff'),
+        url('../fonts/SpecifyPERSONAL-ConMedium.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: SpecifyPersonal;
     src:
-        url('fonts/SpecifyPERSONAL-ConBold.woff') format('woff'),
-        url('fonts/SpecifyPERSONAL-ConBold.ttf') format('truetype');
+        url('../fonts/SpecifyPERSONAL-ConBold.woff') format('woff'),
+        url('../fonts/SpecifyPERSONAL-ConBold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
 @font-face {
     font-family: BlackLarch;
     src:
-        url('fonts/BlackLarch.woff') format('woff'),
-        url('fonts/BlackLarch.ttf') format('truetype');
+        url('../fonts/BlackLarch.woff') format('woff'),
+        url('../fonts/BlackLarch.ttf') format('truetype');
+}
+/* main styles */
+body {
+    width: 1200px;
+}
+aside{
+    width: 200px;
+    float: left;
+}
+/* styles for header columns */
+header .left {
+    border: 1px solid black;
+    margin: 25px;
+    padding: 15px;
+    font-size: .8rem;
+    vertical-align: middle;
+}
+header .right {
+    text-align: justify;
+    font-size: .8rem;
+}
+header .main_title {
+    font-family: OldLondon;
+    width: 800px;
+    font-size: 6rem;
+    float: left;
+}
+.mag_info {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    clear: both;
+}
+.mag_info .small_text {
+    font-size: 0.7em;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+.mag_info .right {
+    float:right;
+    vertical-align: middle;
+}
+.right p {
+    margin-top: 0em;
+}
+p.right_title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 1em;
+    margin-bottom: 0em;
 }
