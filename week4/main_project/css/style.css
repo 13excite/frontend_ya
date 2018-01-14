@@ -33,7 +33,7 @@
         url('../fonts/BlackLarch.woff') format('woff'),
         url('../fonts/BlackLarch.ttf') format('truetype');
 }
-/* main styles */
+/* # main styles */
 body {
     width: 1200px;
 }
@@ -41,7 +41,7 @@ aside{
     width: 200px;
     float: left;
 }
-/* styles for header columns */
+/* ### styles for header columns */
 header .left {
     border: 1px solid black;
     margin: 25px;
@@ -82,4 +82,56 @@ p.right_title {
     font-size: 1rem;
     margin-top: 1em;
     margin-bottom: 0em;
+}
+/* #### body styles */
+main {
+    margin-top: 10px;
+    box-sizing: content-box;
+    font-size: 0.7rem;
+}
+main .left {
+    border-right: 1px solid black;
+    width: 200px;
+    padding: 0 10px 0 10px;
+    box-sizing: border-box;
+}
+main > .center {
+    width: 800px;
+    padding: 0 10px 0 10px;
+    box-sizing: border-box;
+}
+main .right {
+    border-left: 1px solid black;
+    width: 200px;
+    padding: 0 10px 0 10px;
+    box-sizing: border-box;
+}
+main > div {
+    float: left;
+}
+main h2 {
+    font-size: 2rem;
+}
+main h2.font_BlackLarch {
+    font-family: BlackLarch;
+    font-weight: normal;
+    font-size: 2rem;
+    letter-spacing: 2.5px;
+}
+main h2.font_Droid{
+    font-family: Droid;
+    font-size: 1.8rem;
+}
+
+/* ####  main image styles */
+main a {
+    text-decoration: none;
+    font-style: italic;
+    color: #000;
+}
+main .text_center {
+    text-align: center;
+}
+figure {
+    margin: 0;
 }
